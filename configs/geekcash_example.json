@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "coin": "geekcash.json",
+    "address": "GYG4mpNQJPYZM8Z3DARJJ2HkoRL2KZnxHr",
+    "rewardRecipients": {
+        "GYG4mpNQJPYZM8Z3DARJJ2HkoRL2KZnxHr": 0.8
+    },
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 600,
+        "minimumPayment": 10,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 6888,
+            "user": "root",
+            "password": "40f989b2ce96212d1f0a48a0b3d0d145690502543be74b587fe39b1789dda898"
+        }
+    },
+    "ports": {
+        "3333": {
+            "diff": 0.0005
+        }
+    },
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 6888,
+            "user": "root",
+            "password": "40f989b2ce96212d1f0a48a0b3d0d145690502543be74b587fe39b1789dda898"
+        }
+    ],
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 6888,
+        "disableTransactions": true
+    },
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    },
+    "mongoMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "user": "",
+        "pass": "",
+        "database": "ltc",
+        "authMechanism": "DEFAULT"
+    }
+}
