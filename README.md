@@ -18,7 +18,7 @@ Adding new algos threw Node Multihashing libraries.
 -------
 ### Install
 ```
-git clone https://gitlab.com/geekcash/open-node-mining-portal.git pool
+git clone https://github.com/geekcash/open-node-mining-portal.git pool
 cd pool
 npm install
 node init.js
@@ -105,6 +105,7 @@ There is a ```payment-fixes``` branch where i fixed previous blockHash problem a
 -------
 ### Credits
 
+* [nasa8x](//github.com/nasa8x/node-multi-hashing) - helped with geek algo
 * [foxer666](//github.com/foxer666/node-stratum-pool) - Maintainer
 * [devnulled](//github.com/devnull-ed) - Main maintainer, architecture
 * [a2hill](//github.com/a2hill) - helped with X16r
