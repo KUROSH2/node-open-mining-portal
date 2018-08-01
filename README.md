@@ -18,7 +18,7 @@ Adding new algos threw Node Multihashing libraries.
 -------
 ### Install
 ```
-git clone https://github.com/geekcash/open-node-mining-portal.git pool
+git clone https://github.com/geekcash/node-open-mining-portal.git pool
 cd pool
 npm install
 node init.js
