@@ -34,16 +34,16 @@
 
     "website": {
         "enabled": true,
-        "host": "0.0.0.0",
+        "host": "127.0.0.1",
         "port": 80,
-        "stratumHost": "yourdomain.com",
+        "stratumHost": "localhost",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
             "hashrateWindow": 300
         },
         "adminCenter": {
-            "enabled": true,
+            "enabled": false,
             "password": "password"
         }
     },
